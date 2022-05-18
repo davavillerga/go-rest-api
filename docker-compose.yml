@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  gorestapi1:
+    image: gorestapi1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 10000:10000
